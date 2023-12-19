@@ -1,0 +1,542 @@
+.logo
+{
+    width: 1050px;
+    margin-left: 15%;
+    background: linear-gradient(#FDC010,#F6B812,#EAA00B);
+}
+
+.home
+{
+    font-size: 70%;
+    position: absolute;
+    left: 67.5%;
+    top: .1%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.home:hover
+{
+    color: red;
+    cursor: pointer;
+}
+
+.contact
+{
+    font-size: 70%;
+    position: absolute;
+    left: 70.3%;
+    top: .1%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.contact:hover
+{
+    color: red;
+    cursor: pointer;
+}
+
+.webmail
+{
+    font-size: 70%;
+    position: absolute;
+    left: 74.8%;
+    top: .1%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.webmail:hover
+{
+    color: red;
+    cursor: pointer;
+}
+
+.malayalam
+{
+    font-size: 70%;
+    position: absolute;
+    left: 78.5%;
+    top: .1%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.malayalam:hover
+{
+    color: red;
+    cursor: pointer;
+}
+
+.search
+{
+    width: 25%;
+    position: absolute;
+    left: 58.5%;
+    top: 5%;
+}
+
+.naac
+{
+    width: 1050px;
+    height: 79px;
+    position: absolute;
+    left: 15%;
+    margin-top: .5%;
+}
+
+.navigation
+{
+    width: 1050px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 15%;
+    top: 24%;
+}
+
+.nav-link:hover
+{
+    background: linear-gradient(rgb(253,192,16), rgb(232,158,9));
+}
+
+.navbar-nav
+{
+    background: linear-gradient(rgb(98,66,33),rgb(38,22,3));
+    width: 1050px;
+    text-shadow: #000 1px 1px 1px;
+}
+
+a
+{
+    font-size: 85% !important;
+    color: #fff !important;
+    width: 12vw;
+    text-align: center;
+}
+
+.mainimg
+{
+    position: absolute;
+    left: 14.8vw;
+    top: 30vh;
+    width: 1050px;
+}
+
+.sideimg
+{
+    position: absolute;
+    top: 77%;
+    left: 15.2%;
+}
+
+.highereddept
+{
+    margin-bottom: 5px;
+    border-radius: 3px;
+    background-color: rgb(173,175,248);
+    padding: 1px;
+    cursor: pointer;
+}
+
+.padasala
+{
+    margin-bottom: 5px;
+    margin-top: 3px;
+    border-radius: 3px;
+    background-color: rgb(173,175,248);
+    padding: 1px;
+    cursor: pointer;
+}
+
+.affiliation
+{
+    margin-bottom: 5px;
+    margin-top: 3px;
+    border-radius: 3px;
+    background-color: rgb(173,175,248);
+    padding: 1px;
+    cursor: pointer;
+}
+
+.privatereg
+{
+    margin-bottom: 5px;
+    margin-top: 3px;
+    border-radius: 3px;
+    background-color: rgb(173,175,248);
+    padding: 1px;
+    cursor: pointer;
+}
+
+.digilocker
+{
+    margin-bottom: 5px;
+    margin-top: 3px;
+    border-radius: 3px;
+    background-color: rgb(173,175,248);
+    padding: 1px;
+    cursor: pointer;
+}
+
+.covid
+{
+    margin-bottom: 5px;
+    margin-top: 3px;
+    border-radius: 3px;
+    background-color: rgb(173,175,248);
+    padding: 1px;
+    cursor: pointer;
+}
+
+.onlinepay
+{
+    margin-bottom: 5px;
+    margin-top: 3px;
+    border-radius: 3px;
+    background-color: rgb(173,175,248);
+    padding: 1px;
+    cursor: pointer;
+}
+
+.econtent
+{
+    margin-bottom: 5px;
+    margin-top: 3px;
+    border-radius: 3px;
+    background-color: rgb(173,175,248);
+    padding: 1px;
+    cursor: pointer;
+}
+
+.ecert
+{
+    margin-bottom: 5px;
+    margin-top: 3px;
+    border-radius: 3px;
+    background-color: rgb(173,175,248);
+    padding: 1px;
+    cursor: pointer;
+}
+
+.asaponlinenew
+{
+    margin-bottom: 5px;
+    margin-top: 3px;
+    border-radius: 3px;
+    background-color: rgb(173,175,248);
+    padding: 1px;
+    cursor: pointer;
+}
+
+.helpdesk
+{
+    color: red;
+    position: absolute;
+    top: 155%;
+    left: 15.5%;
+    font-size: 106%;
+}
+
+.phone
+{
+    width: 7.5%;
+    height: 7%;
+}
+
+.number
+{
+    position: absolute;
+    top: 158%;
+    left: 15.5%;
+    width: 15%;
+}
+
+.lineR
+{
+    width: 13.5vw;
+    height: 1.5px;
+    background-color: rgb(0,153,255);
+}
+
+.resource
+{
+    position: absolute;
+    top: 77%;
+    left: 31.6%;
+    width: 14.5vw;
+    font-size: 84%;
+    font-family: Helvetica, Arial, sans-serif;
+    box-shadow: #000 .1px .1px 2px;
+}
+
+.RESOURCES
+{
+    width: 13.5vw;
+    height: 1.7vw;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background: rgb(84,84,84);
+    border-bottom-right-radius: 100px;
+    text-shadow: #000 1px 1px;
+}
+
+.University_Act_and_Statues
+{
+    margin-top: 5%;
+    width: 83%;
+}
+
+.University_Act_and_Statues:hover
+{
+    cursor: pointer;
+    color: rgb(14,148,207);
+}
+
+.ApplicationForms
+{
+    width: 59%;
+}
+
+.ApplicationForms:hover
+{
+    cursor: pointer;
+    color: rgb(14,148,207); 
+}
+
+.OrdersCirculars
+{
+    width: 58%;
+}
+
+.OrdersCirculars:hover
+{
+    cursor: pointer;
+    color: rgb(14,148,207);
+}
+
+.OldQuestionPapers
+{
+    width: 67%;
+}
+
+.OldQuestionPapers:hover
+{
+    cursor: pointer;
+    color: rgb(14,148,207);
+}
+
+.Downloads
+{
+    width: 41%;
+}
+
+.Downloads:hover
+{
+    cursor: pointer;
+    color: rgb(14,148,207);
+}
+
+.Guidelines
+{
+    width: 39%;
+}
+
+.AcademicCalendar
+{
+    width: 63%;
+}
+
+.AnnualReports
+{
+    width: 52%;
+}
+
+.Minutes
+{
+    width: 31%;
+}
+
+.InstitutionalData
+{
+    width: 75%;
+}
+
+.ARIIAReport
+{
+    width: 46%;
+}
+
+.AnnualAccounts
+{
+    margin-bottom: 5%;
+    width: 55%;
+}
+
+.lineE
+{
+    width: 13.5vw;
+    height: 1.5px;
+    background-color: rgb(204,0,153);
+}
+
+.exam
+{
+    position: absolute;
+    top: 77%;
+    left: 47.8%;
+    width: 14.5vw;
+    font-size: 84%;
+    font-family: Helvetica, Arial, sans-serif;
+    box-shadow: #000 .1px .1px 2px;
+}
+
+.EXAMINATION
+{
+    width: 13.5vw;
+    height: 1.7vw;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background: rgb(84,84,84);
+    border-bottom-right-radius: 100px;
+    text-shadow: #000 1px 1px;
+}
+
+.Registration
+{
+    margin-top: 5%;
+}
+
+.Results
+{
+    margin-bottom: 5%;
+}
+
+.lineA
+{
+    width: 13.5vw;
+    height: 1.5px;
+    background-color: rgb(255,153,0);
+}
+
+.announcement
+{
+    position: absolute;
+    top: 117.9%;
+    left: 31.6%;
+    width: 14.5vw;
+    font-size: 84%;
+    font-family: Helvetica, Arial, sans-serif;
+    box-shadow: #000 .1px .1px 2px;
+}
+
+.ANNOUNCEMENTS
+{    
+    width: 13.5vw;
+    height: 1.7vw;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background: rgb(84,84,84);
+    border-bottom-right-radius: 100px;
+    text-shadow: #000 1px 1px;
+}
+
+.Covid19PeriodandAfterReport
+{
+    margin-top: 5%;
+}
+
+.ElectionNotification
+{
+    margin-bottom: 5%;
+}
+
+.lineG
+{
+    width: 13.5vw;
+    height: 1.5px;
+    background-color: rgb(102,153,204);
+}
+
+.generals
+{
+    position: absolute;
+    top: 98.5%;
+    left: 47.8%;
+    width: 14.5vw;
+    font-size: 84%;
+    font-family: Helvetica, Arial, sans-serif;
+    box-shadow: #000 .1px .1px 2px;
+}
+
+.GENERAL
+{
+    width: 13.5vw;
+    height: 1.7vw;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background: rgb(84,84,84);
+    border-bottom-right-radius: 100px;
+    text-shadow: #000 1px 1px;
+}
+
+.Departments
+{
+    margin-top: 5%;
+}
+
+.FAQs
+{
+    margin-bottom: 5%;
+}
+
+.naacaccreditation
+{
+    position: absolute;
+    top: 77%;
+    left: 64.2%;
+}
+
+.lineU
+{
+    width: 18vw;
+    height: 1.5px;
+    background-color:rgb(153,204,0)
+}
+
+.latestupdate
+{
+    width: 301px;
+    position: absolute;
+    top: 86%;
+    left: 64.2%;
+    font-size: 84%;
+    box-shadow: #000 .1px .1px 2px;
+}
+
+.LATESTUPDATES
+{
+    width: 18vw;
+    height: 1.7vw;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background: rgb(84,84,84);
+    border-bottom-right-radius: 100px;
+    text-shadow: #000 1px 1px;
+}
+
+.point1,.point2,.point3
+{
+    margin: 5%;
+
+}
+
+.hr
+{
+    width: 250px;
+    border: 1px dotted;
+    position: relative;
+    left: 7.5%;
+}

@@ -1,0 +1,1106 @@
+.logo
+{
+    width: 24.5%;
+    height: 5vh;
+    position: absolute;
+    left: 2.5%;
+    top: 5.5%;
+}
+
+.topbar
+{
+    width: 68%;
+    height: 4vh;
+    position: absolute;
+    top: 2.5%;
+    left: 27%;
+    font-weight: 500;
+}
+
+.worldlinks
+{
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 16.5%;
+    transition-duration: .3s;
+}
+
+.underline1
+{
+    width: 100%;
+    height: 1px;
+    background: #000;
+    position: absolute;
+    top: 90%;
+    transition-timing-function: ease-in-out;
+    transition-duration: .3s;
+    scale: 0;
+}
+
+.worldlinks:hover 
+{   opacity: 60%;
+    cursor: pointer;
+
+    .underline1
+{
+    opacity: 100%;
+    cursor: pointer;
+    scale: .6;
+}
+}
+
+.motorsports
+{
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 5%;
+    transition-duration: .3s;
+}
+
+
+.underline2
+{
+    width: 100%;
+    height: 1px;
+    background: #000;
+    position: absolute;
+    top: 90%;
+    transition-timing-function: ease-in-out;
+    transition-duration: .3s;
+    scale: 0;
+}
+
+.motorsports:hover 
+{   opacity: 60%;
+    cursor: pointer;
+
+    .underline2
+{
+    opacity: 100%;
+    cursor: pointer;
+    scale: .6;
+}
+}
+
+
+.jp
+{
+    height: 4vh;
+    width: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0%;
+    box-shadow: .1px .1px 1px;
+    transition-duration: .3s;
+}
+
+.jp:hover 
+{   
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.aboutbar
+{
+    height: 8vh;
+    width: 68%;
+    position: absolute;
+    top: 9.5%;
+    left: 27%;
+    font-size: 115%;
+    font-weight: 500; 
+}
+
+.about
+{
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 30%; 
+    transition-duration: .3s;
+}
+
+.underline3
+{
+    width: 100%;
+    height: 1px;
+    background: #000;
+    position: absolute;
+    top: 90%;
+    transition-timing-function: ease-in-out;
+    transition-duration: .3s;
+    scale: 0;
+}
+
+.about:hover 
+{   
+    opacity: 60%;
+    cursor: pointer;
+    .underline3
+    {
+        opacity: 100%;
+        cursor: pointer;
+        scale: .6;
+    }
+}
+
+.businessandinnovation
+{
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    transition-duration: .3s;
+    left: 43%;
+}
+
+.underline4
+{
+    width: 100%;
+    height: 1px;
+    background: #000;
+    position: absolute;
+    top: 90%;
+    transition-timing-function: ease-in-out;
+    transition-duration: .3s;
+    scale: 0;
+}
+
+.businessandinnovation:hover 
+{   
+    opacity: 60%;
+    cursor: pointer;
+    .underline4
+    {
+        opacity: 100%;
+        cursor: pointer;
+        scale: .6;
+    }
+}
+
+.aboutsustainability
+{
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    transition-duration: .3s;
+    position: absolute;
+    left: 64.5%;
+}
+
+.underline5
+{
+    width: 100%;
+    height: 1px;
+    background: #000;
+    position: absolute;
+    top: 90%;
+    transition-timing-function: ease-in-out;
+    transition-duration: .3s;
+    scale: 0;
+}
+
+.aboutsustainability:hover 
+{   
+    opacity: 60%;
+    cursor: pointer;
+    .underline5
+    {
+        opacity: 100%;
+        cursor: pointer;
+        scale: .6;
+    }
+}
+
+.investors
+{
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    transition-duration: .3s;
+    position: absolute;
+    left: 77.5%;
+}
+
+.underline6
+{
+    width: 100%;
+    height: 1px;
+    background: #000;
+    position: absolute;
+    top: 90%;
+    transition-timing-function: ease-in-out;
+    transition-duration: .3s;
+    scale: 0;
+}
+
+.investors:hover 
+{   
+    opacity: 60%;
+    cursor: pointer;
+    .underline6
+    {
+        opacity: 100%;
+        cursor: pointer;
+        scale: .6;
+    }
+}
+
+.newsroom
+{
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    transition-duration: .3s;
+    position: absolute;
+    left: 87.3%;
+}
+
+.underline7
+{
+    width: 100%;
+    height: 1px;
+    background: #000;
+    position: absolute;
+    top: 90%;
+    transition-timing-function: ease-in-out;
+    transition-duration: .3s;
+    scale: 0;
+}
+
+.newsroom:hover 
+{   
+    opacity: 60%;
+    cursor: pointer;
+    .underline7
+    {
+        opacity: 100%;
+        cursor: pointer;
+        scale: .6;
+    }
+}
+
+.search
+{
+    display: flex;
+    align-items: center;
+    transition-duration: .3s;
+    position: absolute;
+    right: 0%;
+    top: -10%;
+    zoom: 150%;
+}
+
+.underline8
+{
+    width: 100%;
+    height: 1px;
+    background: #000;
+    position: absolute;
+    top: 90%;
+    transition-timing-function: ease-in-out;
+    transition-duration: .3s;
+    scale: 0;
+}
+
+.search:hover 
+{   
+    opacity: 60%;
+    cursor: pointer;
+    .underline8
+    {
+        opacity: 100%;
+        cursor: pointer;
+        scale: .6;
+    }
+}
+
+video
+{
+    width: 100%;
+    height: 100vh;
+    object-fit: fill;
+    position: absolute;
+    top: 17.8%;
+    
+}
+
+.highlight
+{
+    width: 85%;
+    height: 62vh;
+    position: absolute;
+    top: 130%;
+    left: 7.5%;
+}
+
+.highlights
+{
+    width: 85%;
+    position: absolute;
+    left: 7.5%;
+    font-size: 160%;
+    font-weight: 350;
+}
+
+.hpics
+{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 15%;
+    left: 7.5%;
+    --bs-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.hpic1
+{
+    width: 32%;
+    height: 30vh;
+    transition:all .4s ease-in-out;
+    scale: 100%;
+}
+
+.hpic2
+{
+    width: 32%;
+    height: 30vh;
+    transition:all .4s ease-in-out;
+    scale: 100%;
+}
+
+.hpic3
+{
+    width: 32%;
+    height: 30vh;
+    transition:all .4s ease-in-out;
+    scale: 100%;
+}
+
+.hpic1:hover,.hpic2:hover,.hpic3:hover
+{
+    cursor: pointer;
+    opacity: 70%;
+    transform: scale(105%);
+}
+
+.date1
+{
+    position: absolute;
+    top: 105%;
+    left: 1%;
+}
+
+.sustainability
+{
+    width: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 85%;
+    position: absolute;
+    top: 105%;
+    left: 11%;
+    box-shadow: .1px .1px 1px;
+}
+
+.cont1
+{
+    position: absolute;
+    top: 120%;
+    left: 1%;
+    width: 30%;
+}
+
+.date2
+{
+    position: absolute;
+    top: 105%;
+    left: 35%;
+}
+
+.stories1
+{
+    position: absolute;
+    top: 105%;
+    left: 46%;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 85%;
+    box-shadow: .1px .1px 1px;
+}
+
+.cont2
+{
+    position: absolute;
+    top: 120%;
+    left: 35%;
+    width: 30%;
+}
+
+.date3
+{
+    position: absolute;
+    top: 105%;
+    left: 69%;
+}
+
+.stories2
+{
+    position: absolute;
+    top: 105%;
+    left: 79%;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 85%;
+    box-shadow: .1px .1px 1px;
+}
+
+.cont3
+{
+    position: absolute;
+    top: 120%;
+    left: 69%;
+    width: 30%;
+}
+
+.cont1:hover,.cont2:hover,.cont3:hover
+{
+    cursor: pointer;
+    opacity: 70%;
+    transition: .2s;
+}
+
+hr
+{
+    width: 85%;
+    height: 5px;
+    position: absolute;
+    top: 95%;
+    left: 7.5%;
+}
+
+.latest
+{
+    width: 85%;
+    height: 50vh;
+    position: absolute;
+    left: 7.5%;
+    top: 200%;
+    --bs-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.l
+{
+    width: 85%;
+    height: 35vh;
+    position: absolute;
+    left: 7.5%;
+    background: rgb(246,246,246);
+}
+
+.latestnews
+{
+    width: 85%;
+    position: absolute;
+    left: 7.5%;
+    top: 12%;
+    font-size: 150%;
+    font-weight: 350;
+}
+
+.news
+{
+    width: 85%;
+    height: 20vh;
+    position: absolute;
+    top: 30%;
+    left: 7.5%;
+}
+
+.news1
+{
+    width: 100%;
+    height: 4vh;
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+
+.news1:hover
+{
+    opacity: 70%;
+    cursor: pointer;
+}
+
+.newsdate1
+{
+    width: 10%;
+    position: absolute;
+    left: 0%;
+}
+
+.newsnew1
+{
+    width: 12%;
+    position: absolute;
+    left: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: .1px .1px 1px;
+    font-size: 85%;
+}
+
+.newscont1
+{
+    width: 70%;
+    position: absolute;
+    left: 30%;
+    font-size: 120%;
+}
+
+.news2
+{
+    width: 100%;
+    height: 4vh;
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+
+.news2:hover
+{
+    opacity: 70%;
+    cursor: pointer;
+}
+
+.newsdate2
+{
+    width: 10%;
+    position: absolute;
+    left: 0%;
+}
+
+.newsnew2
+{
+    width: 12%;
+    position: absolute;
+    left: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: .1px .1px 1px;
+    font-size: 85%;
+}
+
+.newscont2
+{
+    width: 70%;
+    position: absolute;
+    left: 30%;
+    font-size: 120%;
+}
+
+.news3
+{
+    width: 100%;
+    height: 4vh;
+    position: absolute;
+    top: 77%;
+    left: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+
+.news3:hover
+{
+    opacity: 70%;
+    cursor: pointer;
+}
+
+.newsdate3
+{
+    width: 11%;
+    position: absolute;
+    left: 0%;
+}
+
+.newsnew3
+{
+    width: 12%;
+    position: absolute;
+    left: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: .1px .1px 1px;
+    font-size: 85%;
+}
+
+.newscont3
+{
+    width: 69%;
+    position: absolute;
+    left: 31%;
+    font-size: 120%;
+}
+
+.viewnewsroom
+{
+    width: 23%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 2%;
+    position: absolute;
+    left: 38.5%;
+    top: 80%;
+    border: 1px solid #000;
+    background: 0;
+}
+
+.viewnewsroom:hover
+{
+    cursor: pointer;
+    background: rgb(53,54,59);
+    color: white;
+    transition: .3s;
+}
+
+.abouthonda
+{
+    width: 100%;
+    height: 100vh;
+    background: url(about_img01_pc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 265%;
+    border:  1.5px solid rgb(204,204,204) ;
+}
+
+.abouthondacontent
+{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 35%;
+}
+
+.abt
+{
+    position: absolute;
+    top: 0%;
+    font-size: 220%;
+    font-weight: 350;
+}
+
+.power
+{
+    position: absolute;
+    top: 40%;
+    font-size: 110%;
+}
+
+.more1
+{
+    width: 19.55%;
+    height: 10vh;
+    position: absolute;
+    top:67%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 2%;
+    border: 1px #000 solid;
+    font-size: 120%;
+    background: 0;
+}
+
+.more1:hover
+{
+    cursor: pointer;
+    background: rgb(53,54,59);
+    color: white;
+    transition: .3s;
+}
+
+.BusinessandInnovation
+{
+    background: url(business_and_innovation_img01_pc.webp);
+    width: 100%;
+    height: 90vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 365%;
+    border:  1.5px solid rgb(204,204,204) ;
+}
+
+.BusinessandInnovationcontent
+{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 35%;
+    text-shadow: #000 5px 5px 10px;
+}
+
+.BaI
+{
+    position: absolute;
+    top: 0%;
+    font-size: 220%;
+    font-weight: 350;
+    color: #fff;
+}
+
+.challenge
+{
+    position: absolute;
+    top: 40%;
+    font-size: 110%;
+    color: #fff;
+}
+
+.more2
+{
+    width: 19.55%;
+    height: 10vh;
+    position: absolute;
+    top:67%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 2%;
+    border: 1px #fff solid;
+    font-size: 120%;
+    color: #fff;
+    background: rgb(53,54,59, 0.7);
+    box-shadow:  #000 2px 2px 10px;
+}
+
+.more2:hover
+{
+    cursor: pointer;
+    background: rgb(53,54,59);
+    color: white;
+    transition: .3s;
+}
+
+.susinv
+{
+    width: 100%;
+    height: 135vh;
+    position: absolute;
+    top: 478%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sust
+{
+    width: 94%;
+    height: 60vh;
+    position: absolute;
+    left: 3%;
+    top: 0%;
+}
+
+.topsust
+{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.invest
+{
+    width: 94%;
+    height: 60vh;
+    position: absolute;
+    left: 3%;
+    top: 55.5%;
+}
+
+.topinvest
+{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.suscont
+{
+    width: 47%;
+    height: 33vh;
+    position: absolute;
+    left: 53%;
+    top: 13vh;
+    --bs-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.s
+{
+    display: flex;
+    align-items: center;
+    font-size: 220%;
+    font-weight: 350 !important;
+    height: 15%;
+}
+
+.as
+{
+    font-size: 110%;
+    font-weight: 100 bold !important;
+    position: absolute;
+    top: 30%;
+}
+
+.more3
+{
+    width: 45%;
+    height: 10vh;
+    position: absolute;
+    left: 0%;
+    top: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 2%;
+    border: 1px #000 solid;
+    font-size: 120%;
+    background: 0;
+}
+
+.more3:hover
+{
+    cursor: pointer;
+    background: rgb(53,54,59);
+    color: white;
+    transition: .3s;
+}
+
+.investcont
+{
+    width: 47%;
+    height: 33vh;
+    position: absolute;
+    left: 53%;
+    top: 13vh;
+    --bs-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.ir
+{
+    display: flex;
+    align-items: center;
+    font-size: 220%;
+    font-weight: 350 !important;
+    height: 15%;
+}
+
+.for
+{
+    font-size: 110%;
+    font-weight: 100 bold !important;
+    position: absolute;
+    top: 30%;
+}
+
+.more4
+{
+    width: 45%;
+    height: 10vh;
+    position: absolute;
+    left: 0%;
+    top: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 2%;
+    border: 1px #000 solid;
+    font-size: 120%;
+    background: 0;
+}
+
+.more4:hover
+{
+    cursor: pointer;
+    background: rgb(53,54,59);
+    color: white;
+    transition: .3s;
+}
+
+.endgray
+{
+    width: 100%;
+    height: 45vh;
+    position: absolute;
+    top: 635%;
+    left: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(53,54,59);
+}
+
+.insidegray
+{
+    width: 94%;
+    height: 30vh;
+}
+
+.ul1
+{
+    list-style-type: none;
+    display: flex;
+    gap: 2%;
+    scale: 75%;
+    width: 10%;
+    gap: 20%;
+    position: relative;
+    top: -3%;
+    left: -2.9%;
+}
+
+.ul2
+{
+    list-style-type: none;
+    height: 33.5vh;
+    position: absolute;
+    top: 16.3%;
+    left: 11%;
+    display: grid;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+}
+
+.ul3
+{
+    list-style-type: none;
+    height: 20vh;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    display: grid;
+    color: #fff;
+}
+
+.japanese
+{
+    width: 70%;
+    height: 4vh;
+    border: 1px #fff solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lastpic
+{
+    width: 20%;
+    height: 30vh;
+    position: absolute;
+    right: 3%;
+    top: 16.6%;
+
+}
+
+.lp
+{
+    width: 90%;
+    height: 20vh;
+}
+
+.lpdesc
+{
+    color: #fff;
+    position: absolute;
+    left: 20%;
+    top: 70%;
+}
+
+.endblack
+{
+    width: 100%;
+    height: 20vh;
+    position: absolute;
+    top: 680%;
+    background: #000;
+}
+
+.insideblack
+{
+    width: 95%;
+    height: 15vh;
+    position: absolute;
+    left: 2.5%;
+    top: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ul4
+{
+    list-style-type: none;
+    font-size: 90%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    position: absolute;
+    top: 10%;
+}
+
+.l4:hover
+{
+    cursor: pointer;
+}
+
+.copywrite
+{
+    color: #fff;
+    font-size: 80%;
+    position: absolute;
+    bottom: 0%;
+}
