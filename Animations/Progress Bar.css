@@ -1,0 +1,41 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background: black;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+}
+
+.border
+{
+    width: 200px;
+    height: 20px;
+    background: white;
+    border-style: solid;
+    border-color: rgb(255, 0, 0);
+    border-width: 5px;
+    border-radius: 50px;
+}
+
+.color
+{
+    height: 20px;
+    background: rgb(0, 0, 0);
+    animation-name: loading;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    border-radius: 50px;
+}
+
+@keyframes loading
+{
+    0% {width: 0%;}
+    100% {width: 100%;}
+}

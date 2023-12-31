@@ -1,0 +1,147 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.centre
+{
+    background: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+@keyframes wave
+{
+    0% {scale: 20%;}
+    50% {scale: 100%;}
+    100% {scale: 20%;}
+}
+
+.centre:hover
+{
+
+.wave1
+{
+    width: 3px;
+    height: 200px;
+    background: linear-gradient(yellow, red);
+    animation-name: wave;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+
+.wave2
+{
+    width: 3px;
+    height: 200px;
+    background: linear-gradient(yellow, red);
+    animation-name: wave;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: .1s;
+    animation-fill-mode: forwards;
+}
+
+.wave3
+{
+    width: 3px;
+    height: 200px;
+    background: linear-gradient(yellow, red);
+    animation-name: wave;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: .2s;
+    animation-fill-mode: forwards;
+}
+
+.wave4
+{
+    width: 3px;
+    height: 200px;
+    background: linear-gradient(yellow, red);
+    animation-name: wave;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: .3s;
+    animation-fill-mode: forwards;
+}
+
+.wave5
+{
+    width: 3px;
+    height: 200px;
+    background: linear-gradient(yellow, red);
+    animation-name: wave;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: .4s;
+    animation-fill-mode: forwards;
+}
+
+.wave6
+{
+    width: 3px;
+    height: 200px;
+    background: linear-gradient(yellow, red);
+    animation-name: wave;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: .5s;
+    animation-fill-mode: forwards;
+}
+
+.wave7
+{
+    width: 3px;
+    height: 200px;
+    background: linear-gradient(yellow, red);
+    animation-name: wave;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: .6s;
+    animation-fill-mode: forwards;
+}
+
+.wave8
+{
+    width: 3px;
+    height: 200px;
+    background: linear-gradient(yellow, red);
+    animation-name: wave;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: .7s;
+    animation-fill-mode: forwards;
+}
+
+.wave9
+{
+    width: 3px;
+    height: 200px;
+    background: linear-gradient(yellow, red);
+    animation-name: wave;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: .8s;
+    animation-fill-mode: forwards;
+}
+
+.wave10
+{
+    width: 3px;
+    height: 200px;
+    background: linear-gradient(yellow, red);
+    animation-name: wave;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: .9s;
+    animation-fill-mode: forwards;
+}
+
+}
