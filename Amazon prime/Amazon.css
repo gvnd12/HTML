@@ -4,6 +4,11 @@
     src: url(AmazonEmber_Lt.woff);
 }
 
+@font-face {
+    font-family: "amazonbold";
+    src: url(AmazonEmber_Rg.woff);
+}
+
 .container-fluid
 {
     display: flex;
@@ -14,13 +19,12 @@
 
 .topbar
 {
-    width: 65%;
-    height: 7vh;
+    width: 70%;
+    height: 6vh;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     background: #000;
-    font-family: "amazon";
+    font-family: "amazonbold";
     font-size: 105%;
     font-weight: bold;
 }
@@ -34,53 +38,532 @@ a
 .logo
 {
     width: 11%;
+    margin-right: 8%;
 }
 
-.home
+.bi-chevron-down
+{
+    position: relative;
+    left: 7%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home
 {
     width: 10%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: .1s;
+}
+
+.pophome
+{
+    width: 6.9%;
+    height: 18%;
+    position: absolute;
+    top: 6%;
+    left: 28.65%;
+    background: rgb(25,30,37);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    scale: 0;
+    z-index: 2;
+    box-shadow: #000 .5px .5px 5px;
+}
+
+.pophomeli
+{
+    width: 144%;
+    height: 6vh;
+    padding: 10px;
+    position: relative;
+    right: 44%;
+    display: flex;
+    align-items: center;
+}
+
+.pophomeli:hover
+{
+    background-color: #fff;
+    color: #000;
+}
+
+.pophomelilast
+{
+    width: 144%;
+    height: 6vh;
+    padding: 10px;
+    position: relative;
+    right: 44%;
+    display: flex;
+    align-items: center;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.pophomelilast:hover
+{
+    background-color: #fff;
+    color: #000;
+}
+
+.pophomeul
+{
+    list-style-type: none;
+    font-family: "amazonbold";
+}
+
+#home:hover
+{
+    background: rgb(25,30,37);
+    color: #fff;
+    .pophome
+    {
+        scale: 1;
+        color: rgb(170,170,170);
+    }
+    .bi-chevron-down
+    {
+        transition: .3s;
+        transform: rotate(180deg);
+        
+    }
+}
+
+#store
+{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .1s;
+}
+
+.popstore
+{
+    width: 6.9%;
+    height: 18%;
+    position: absolute;
+    top: 6%;
+    left: 35.55%;
+    background: rgb(25,30,37);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    scale: 0;
+    z-index: 2;
+    box-shadow: #000 .5px .5px 5px;
+}
+
+.popstoreli
+{
+    width: 144%;
+    height: 6vh;
+    padding: 10px;
+    position: relative;
+    right: 44%;
+    display: flex;
+    align-items: center;
+}
+
+.popstoreli:hover
+{
+    background-color: #fff;
+    color: #000;
+}
+
+.popstorelilast
+{
+    width: 144%;
+    height: 6vh;
+    padding: 10px;
+    position: relative;
+    right: 44%;
+    display: flex;
+    align-items: center;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.popstorelilast:hover
+{
+    background-color: #fff;
+    color: #000;
+}
+
+.popstoreul
+{
+    list-style-type: none;
+    font-family: "amazonbold";
+}
+
+#store:hover
+{
+    background: rgb(25,30,37);
+    color: #fff;
+    .popstore
+    {
+        scale: 1;
+        color: rgb(170,170,170)
+    }
+    .bi-chevron-down
+    {
+        transition: .3s;
+        transform: rotate(180deg);
+        
+    }
+}
+
+.livetv
+{
+    width: 8%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .1s;
+}
+
+.livetv:hover
+{
+    background: rgb(25,30,37);
+    color: #fff;
+}
+
+#categories
+{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .1s;
+}
+
+.popcategories
+{
+    width: 69%;
+    height: 50vh;
+    font-family: "amazon" !important;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 6%;
+    left: 15.5%;
+    background: rgb(25,30,37);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    scale: 0;
+    z-index: 2;
+    box-shadow: #000 .5px .5px 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#categories:hover
+{
+    background: rgb(25,30,37);
+    color: #fff;
+    .popcategories
+    {
+        scale: 1;
+        color: rgb(170,170,170);
+        cursor: default;
+    }
+    .bi-chevron-down
+    {
+        transition: .3s;
+        transform: rotate(180deg);
+        
+    }
+}
+
+.genres
+{
+    width: 40%;
+    height: 100%;
+}
+
+.genrep
+{
+    height: 12%;
+    width: 40%;
+    position: absolute;
+    top: 5%;
+    display: flex;
+    align-items: center;
+    font-size: 120%;
+    color: #fff;
+    font-family: "amazonbold";
+}
+
+.gfirstrowul
+{
+    font-size: 110%;
+    list-style-type: none;
+    height: 83%;
+    position: relative;
+    top: 17.1%;
+    width: 47%;
+}
+
+.gfirstrowli
+{
+    width: 120%;
+    height: 16.7%;
+    position: relative;
+    left: -20%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+.gfirstrowli:hover
+{
+    background: #fff;
+    color:#000 ;
+    cursor: pointer;
+}
+
+.gsecondrowul
+{
+    width: 45%;
+    font-size: 110%;
+    list-style-type: none;
+    height: 83%;
+    position: relative;
+    bottom: 70.3%;
+    left: 55%;
+}
+
+.gsecondrowli
+{
+    width: 120%;
+    height: 16.7%;
+    position: relative;
+    left: -20%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+.gsecondrowli:hover
+{
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+.featuredcollections
+{
+    width: 35%;
+    height: 100%;
+}
+
+.featuredcollectionsp
+{
+    height: 12%;
+    width: 35%;
+    position: absolute;
+    top: 5%;
+    display: flex;
+    align-items: center;
+    font-size: 120%;
+    color: #fff;
+    font-family: "amazonbold";
+}
+
+.ffirstrowul
+{
+    font-size: 110%;
+    list-style-type: none;
+    height: 83%;
+    position: relative;
+    top: 17.1%;
+    width: 35%;
+}
+
+.ffirstrowli
+{
+    width: 120%;
+    height: 16.7%;
+    position: relative;
+    left: -20%;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    border-radius: 10px;
+}
+
+.ffirstrowli:hover
+{
+    background: #fff;
+    color:#000 ;
+    cursor: pointer;
+}
+
+.fsecondrowul
+{
+    width: 35%;
+    font-size: 110%;
+    list-style-type: none;
+    height: 83%;
+    position: relative;
+    bottom: 70.3%;
+    left: 55%;
+}
+
+.fsecondrowli
+{
+    width: 120%;
+    height: 16.7%;
+    position: relative;
+    left: -20%;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    border-radius: 10px;
+}
+
+.fsecondrowli:hover
+{
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+#lang
+{
+    width: 7%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#lang:hover
+{
+    background: rgb(25,30,37);
+    color: #fff;
+    .poplang
+    {
+        scale: 1;
+        cursor: default;
+    }
+    .bi-chevron-down
+    {
+        transition: .3s;
+        transform: rotate(180deg);
+        
+    }
+}
+
+.poplang
+{
+    width: 69%;
+    height: 50vh;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 6%;
+    left: 15.5%;
+    background: rgb(25,30,37);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    scale: 0;
+    z-index: 2;
+    box-shadow: #000 .5px .5px 5px;
+    gap: 100px;
+}
+
+.langtype
+{
+    color: rgb(170,170,170);
+    background: transparent;
+    height: 12%;
+    width: 20%;
+    border-radius: 10px;
+    border: none;
+    font-family: "amazonbold";
+    font-size: 110%;
+    position: relative;
+    left: 9%;
+}
+
+.langtype:hover
+{
+    background: #fff;
+    color: #000;
 }
 
 .search
 {
-    width: 2.5%;
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    transition: .1s;
 }
 
 .searchicon
 {
     filter: invert(60%);
-    width: 100%;
+    width: 58%;
+    height: 100%;
+    padding-left: 18px;
+    padding-right: 18px;
 }
 
-.account
+.searchicon:hover
 {
-    width: 3%;
+    background: rgb(25,30,37, .3);
+    color: #fff;
+}
+
+.tryforfree
+{
+    width: 11%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tryforfree:hover
+{
+    background: rgb(25,30,37);
+    color: #fff;
+}
+
+#account
+{
+    width: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2%;
+    height: 100%;
 }
 
 .accounticon
 {
     width: 100%;
+    height: 100%;
     filter: invert(60%);
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-.homepop
+.accounticon:hover
 {
-    width: 6.4%;
-    height: 100px;
-    position: absolute;
-    top: 7%;
-    left: 27.6%;
-    background: rgb(25,30,37);
-    visibility: hidden;
-}
-
-.home:hover .homepop
-{
-    visibility: visible;
+    background: rgb(25,30,37,.3);
+    color: #fff;
 }
 
 .poster1

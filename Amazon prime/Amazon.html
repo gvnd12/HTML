@@ -4,6 +4,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="Amazon.css">
+    <script src="Amazon.js"></script>
+    <script src="signin.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amazon Prime Video</title>
@@ -12,18 +14,107 @@
     <div class="container-fluid">
         <div class="topbar">
             <img class="logo" src="Logo-min.png" alt="">
-            <a class="home" href="">Home <i class="bi bi-chevron-down"></i></a>
-            <a class="store" href="">Store <i class="bi bi-chevron-down"></i></a>
-            <a class="livetv" href="">Live TV <i class="bi bi-chevron-down"></i></a>
-            <a class="categories" href="">Categories <i class="bi bi-chevron-down"></i></a>
+            <a id="home" href="">Home 
+                <div class="pophome">
+                    <ul class="pophomeul">
+                        <li class="pophomeli">All</li>
+                        <li class="pophomeli">Movies</li>
+                        <li class="pophomelilast">TV shows</li>
+                    </ul>
+                </div>
+                <i class="bi bi-chevron-down"></i>
+            </a>
+            <a id="store" href="">Store 
+                <div class="popstore">
+                    <ul class="popstoreul">
+                        <li class="popstoreli">All</li>
+                        <li class="popstoreli">Rent</li>
+                        <li class="popstorelilast">Channels</li>
+                    </ul>
+                </div>
+                <i class="bi bi-chevron-down"></i></a>
+            <a class="livetv" href="">Live TV</a>
+            <a id="categories" href="">Categories 
+                <div class="popcategories">
+                    <div class="genres">
+                        <p class="genrep">Genres</p>
+                        <ul class="gfirstrowul">
+                            <li class="gfirstrowli">Action and adventure</li>
+                            <li class="gfirstrowli">Anime</li>
+                            <li class="gfirstrowli">Comedy</li>
+                            <li class="gfirstrowli">Documentary</li>
+                            <li class="gfirstrowli">Drama</li>
+                            <li class="gfirstrowli">Fantasy</li>
+                        </ul>
+                        <ul class="gsecondrowul">
+                            <li class="gsecondrowli">Horror</li>
+                            <li class="gsecondrowli">Kids</li>
+                            <li class="gsecondrowli">Mystery and thrillers</li>
+                            <li class="gsecondrowli">Romance</li>
+                            <li class="gsecondrowli">Science fiction</li>
+                        </ul>
+                    </div>
+                    <div class="featuredcollections">
+                        <p class="featuredcollectionsp">Featured collections</p>
+                        <ul class="ffirstrowul">
+                            <li class="ffirstrowli">Hindi</li>
+                            <li class="ffirstrowli">English</li>
+                            <li class="ffirstrowli">Telugu</li>
+                            <li class="ffirstrowli">Tamil</li>
+                            <li class="ffirstrowli">Malayalam</li>
+                        </ul>
+                        <ul class="fsecondrowul">
+                            <li class="fsecondrowli">Kannada</li>
+                            <li class="fsecondrowli">Marathi</li>
+                            <li class="fsecondrowli">Punjabi</li>
+                            <li class="fsecondrowli">Gujarati</li>
+                            <li class="fsecondrowli">Bengali</li>
+                        </ul>
+                    </div>
+                </div>
+                <i class="bi bi-chevron-down"></i></a>
             <a class="search" href=""><img class="searchicon" src="search.svg" alt=""></a>
             <a class="tryforfree" href="">Try for free</a>
-            <a class="lang" href="">EN <i class="bi bi-chevron-down"></i></a>
-            <a class="account" href=""><img class="accounticon" src="person-circle.svg" alt=""></a>
-        </div>
-
-        <div class="popdown">
-            <div class="homepop"></div>
+            <a id="lang" href="">EN
+                <div class="poplang">
+                    <input class="langtype" type="Submit" value="Bahasa Indonesia">
+                    <input class="langtype" type="submit" value="Magyar">
+                    <input class="langtype" type="submit" value="Svenska">
+                    <input class="langtype" type="submit" value="हिन्दी">
+                    <input class="langtype" type="submit" value="Bahasa Melayu">
+                    <input class="langtype" type="submit" value="Nederlands">
+                    <input class="langtype" type="submit" value="Turkce">
+                    <input class="langtype" type="submit" value="தமிழ்">
+                    <input class="langtype" type="submit" value="Dansk">
+                    <input class="langtype" type="submit" value="Norsk">
+                    <input type="submit" class="langtype" value="Wikang Filipino">
+                    <input type="submit" class="langtype" value="తెలుగు">
+                    <input type="submit" class="langtype" value="Deutsch">
+                    <input type="submit" class="langtype" value="Polski">
+                    <input type="submit" class="langtype" value="Cestina">
+                    <input type="submit" class="langtype" value="ไทย">
+                    <input type="submit" class="langtype" value="English">
+                    <input type="submit" class="langtype" value="Portugues(Brasil)">
+                    <input type="submit" class="langtype" value="Ελληνικά">
+                    <input type="submit" class="langtype" value="日本語">
+                    <input type="submit" class="langtype" value="Espanol">
+                    <input type="submit" class="langtype" value="Portugues(Portugal)">
+                    <input type="submit" class="langtype" value="Русский">
+                    <input type="submit" class="langtype" value="简体中文">
+                    <input type="submit" class="langtype" value="Francais">
+                    <input type="submit" class="langtype" value="Romana">
+                    <input type="submit" class="langtype" value="עברית">
+                    <input type="submit" class="langtype" value="繁體中文">
+                    <input type="submit" class="langtype" value="Italiano">
+                    <input type="submit" class="langtype" value="Suomi">
+                    <input type="submit" class="langtype" value="العربية">
+                    <input type="submit" class="langtype" value="한국어">
+                </div>
+                <i class="bi bi-chevron-down"></i>
+            </a>
+            <a id="account" href="">
+                <img class="accounticon" src="person-circle.svg" alt="">
+            </a>
         </div>
     </div>
 
@@ -36,7 +127,7 @@
         <div class="welcometoprime"><h1>Welcome to Prime Video</h1></div>
         <div class="contentwelcome">Watch the latest movies, TV shows, and award-winning Amazon Originals</div>
         <div class="signinback">
-            <div class="signin">Sign in to join Prime</div>
+            <div class="signin" onclick="signin()">Sign in to join Prime</div>
         </div>
     </div>
 
@@ -74,7 +165,7 @@
         <div class="firecont">
             <div class="firehead">Even better with Fire TV Stick</div>
             <div class="firecontent">The biggest movies and TV shows are always better on a big screen. Simply plug in your Amazon Fire TV Stick and stream on any HDTV. Press the voice button on the remote and say the name of the title you want to watch to find it in seconds.</div>
-            <div class="getstarted">Get Started</div>
+            <div class="getstarted" onclick="signin()">Get Started</div>
         </div>
     </div>
 
