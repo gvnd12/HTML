@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body
+        {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background:linear-gradient(#510026,#0c0c0c) ;
+        }
+
+        #myform
+        {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            align-items: center;
+        }
+
+        .formbg
+        {
+            width: 30%;
+            height: 85vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            top: 2.5vh;
+            left: 35%;
+            background:white;
+            padding-top: 5vh;
+            padding-bottom: 5vh;
+            background: rgb(249, 249, 249);
+            box-shadow: 0 8px 32px 0 rgba(105, 104, 104, 0.733);
+            border-radius: 20px;
+        }
+
+        #fname,#lname,#email,#pass,#cpass,#phone
+        {
+            width: 60%;
+            height: 30px;
+            margin-top: 5px;
+            margin-bottom: 30px;
+            border-radius:6px ;
+            border-width: 1px;
+            border-color: black;
+            font-size: 90%;
+            font-family: 'Fontlight';
+            font-weight: bold;
+        }
+
+        @font-face {
+            font-family: 'Font';
+            src: url(Gotham-Medium.otf);
+        }
+
+        @font-face {
+            font-family: 'Fontlight';
+            src: url(Gotham-Light.otf);
+        }
+
+        label
+        {
+            justify-self: end;
+            align-self: flex-start;
+            position: relative;
+            left: 20%;
+            font-family: 'Font';
+        }
+
+        #phone
+        {
+            
+            appearance: none;
+        }
+
+        ::placeholder
+        {
+            opacity: 30%;
+        }
+
+        button
+        {
+            width: 30%;
+            height: 50px;
+            border-radius: 8px;
+            border: none;
+            background: linear-gradient(145deg,#510026,#0c0c0c,#510026);
+            font-family: 'Font';
+            font-size: 100%;
+            color: rgb(255, 255, 255);
+        }
+
+        #pass_live
+        {
+            padding-left: 18px;
+            padding-right: 18px;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 1px 1px 4px rgba(41, 41, 41, 0.664);
+            border-radius: 10px;
+            position: absolute;
+            top: 50%;
+            left: 60%;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            font-size: 105%;
+        }
+        #mail_live
+        {
+            position: absolute;
+            top: 37.5%;
+            left: 60%;
+            background-color: rgb(255, 255, 255);
+            padding: 10px 10px 10px 10px;
+            display: none;
+            border-radius: 10px;
+            font-size: 105%;
+            box-shadow: 1px 1px 4px rgba(41, 41, 41, 0.664);
+        }
+
+        #phno_live
+        {
+            display: none;
+            position: absolute;
+            top: 74%;
+            left: 60%;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 1px 1px 4px rgba(41, 41, 41, 0.664);
+            padding: 10px 10px 10px 10px;
+            border-radius: 10px;
+            font-size: 105%;
+        }
+    </style>
+</head>
+<body>
+    <div class="formbg">
+        <form id="myform">
+
+            <label for="fname">First Name</label>
+            <input type="text" name="" id="fname">
+
+            <label for="lname">Last Name</label>
+            <input type="text" name="" id="lname">
+            
+            <label for="email">Email</label>
+            <input type="text" name="" id="email">
+            
+            <label for="pass">Password</label>
+            <input type="password" name="" id="pass">
+
+            <label for="cpass">Confirm Password</label>
+            <input type="password" name="" id="cpass">
+
+            <label for="phone">Phone Number</label>
+            <input type="number" name="" id="phone">
+
+            <button onclick="validate()">Submit</button>
+        </form>
+    </div>
+    <span id="mail_live"></span>
+    <span id="pass_live">
+        <ul>Password should contain:
+            <li>Minimum 8 characters</li>
+            <li>An uppercase character</li>
+            <li>A lowercase character</li>
+            <li>A number</li>
+            <li>Atleast one special character</li>
+        </ul>
+    </span>
+    <span id="phno_live"></span>
+    
+
+    <script>
+        var emailinput=document.getElementById('email');
+        var passinput=document.getElementById('pass')
+        var phoneinput=document.getElementById('phone')
+        
+        emailinput.addEventListener('input',function(){
+            const emaillive=emailinput.value.trim();
+            var n=emaillive.length
+            mail_live.style.display='flex'
+            if(n==0)
+            {mail_live.textContent="Email is required!"}
+            else
+            {for (const i of emaillive)
+                {
+                    if(i=='@')
+                        {var count=1}
+                }
+             if (count!=1)
+             {mail_live.textContent="Mail id should contain '@' symbol!"}
+             else
+             {mail_live.textContent=''}
+            }
+        })
+
+        passinput.addEventListener('input',function(){
+            const passlive=passinput.value.trim()
+            pass_live.style.display='flex'
+            var pa=passlive.length
+            if (pa==0)
+            {pass_live.textContent='Password is required!'
+             pass_live.style.padding='10px 10px 10px 10px';
+            }
+
+        })
+
+        phoneinput.addEventListener('input',function(){
+            const phonelive=phoneinput.value.trim()
+            phno_live.style.display='flex'
+            var ph=phonelive.length
+            if (ph==0)
+            {phno_live.textContent='Phone number is required!'}
+            else if(ph!=10)
+            {phno_live.textContent='Phone number should have 10 digits!'}
+            else if(ph==10)
+            {phno_live.textContent=''}
+
+        })
+
+        var regexname=/^[a-zA-Z]+$/;
+        var regexemail=/^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/;
+        var regexpass=/(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$/;
+        var regexphone=/^\d{10}$/;
+
+        function validate()
+        {
+            var fname= document.getElementById('fname').value.trim();
+            var lname=document.getElementById('lname').value.trim();
+            var email=document.getElementById('email').value.trim();
+            var pass=document.getElementById('pass').value.trim();
+            var cpass=document.getElementById('cpass').value.trim();
+            var phone=document.getElementById('phone').value.trim();
+
+            if (fname=='' || lname=='' || email=='' || pass=='' || cpass=='' || phone=='')
+            {alert("Fill all fields!")}
+
+            else if (!regexname.test(fname) || !regexname.test(lname))
+            {alert("Enter valid first and last names!")}
+
+            else if (!regexemail.test(email))
+            {alert("Enter valid mail id!")}
+
+            else if(!regexpass.test(pass))
+            {alert("Enter valid password!")}
+
+            else if (pass!=cpass)
+            {alert("Passwords do not match!")}
+
+            else if(!regexphone.test(phone))
+            {alert("Enter valid 10-digit phone number!")}
+            
+            else
+            {alert("Form submitted successfully!")}
+        }
+    </script>
+</body>
+</html>
