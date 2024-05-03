@@ -188,6 +188,8 @@
             mail_live.style.display='flex'
             if(n==0)
             {mail_live.textContent="Email is required!"}
+            else if(emaillive[0]=='@')
+            {mail_live.textContent='Invalid mail id'}
             else
             {for (const i of emaillive)
                 {
@@ -197,7 +199,7 @@
              if (count!=1)
              {mail_live.textContent="Mail id should contain '@' symbol!"}
              else
-             {mail_live.textContent=''}
+             {mail_live.style.display='none'}
             }
         })
 
